@@ -1,0 +1,158 @@
+/* styles.css */
+
+/* Navbar */
+.navbar {
+    background-color: #ff8a00;
+    margin-bottom: 20px; /* Add margin to the bottom */
+    padding: 10px 0; /* Add padding to the top and bottom */
+     /* Navbar background color */
+  }
+  
+  .navbar-brand {
+    color: #fff; /* Navbar brand text color */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff; /* Navbar link text color */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #fffcc9; /* Navbar link text color on hover */
+  }
+  
+  /* Active link */
+  .navbar-nav .nav-item.active .nav-link {
+    color: #fffcc9; /* Active navbar link text color */
+  }
+  
+  /* Dropdown menu */
+  .dropdown-menu {
+    background-color: #ff8800; /* Dropdown menu background color */
+  }
+  
+  .dropdown-item {
+    color: #fff; /* Dropdown item text color */
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f4b738; /* Dropdown item background color on hover */
+  }
+  
+  /* Add Campaign button */
+  .nav-item .nav-link.add-campaign {
+    background-color: #f4b738; /* Add Campaign button background color */
+    color: #fff; /* Add Campaign button text color */
+  }
+  
+  .nav-item .nav-link.add-campaign:hover {
+    background-color: #fffcc9; /* Add Campaign button background color on hover */
+    color: #ff8a00; /* Add Campaign button text color on hover */
+  }
+  
+  /* Login and SignUp buttons */
+  .nav-item .nav-link.login,
+  .nav-item .nav-link.signup {
+    color: #fff; /* Login and SignUp button text color */
+  }
+  
+  .nav-item .nav-link.login:hover,
+  .nav-item .nav-link.signup:hover {
+    color: #fffcc9; /* Login and SignUp button text color on hover */
+  }
+  
+  /* SignUp.css */
+
+/* Card Header */
+.card-header {
+    background-color: #ff8a00;
+  }
+  
+  /* Button */
+  .btn-orange {
+    background-color: #ff8a00;
+    border-color: #ff8a00;
+  }
+  
+  .btn-orange:hover {
+    background-color: 	#ff8800;
+    border-color: #fffcc9;
+  }
+
+  /* Forgot Password link */
+.forgot-password {
+    margin-top: 10px;
+  }
+  
+  .forgot-password a {
+    color: #ff8a00;
+  }
+  
+  .forgot-password a:hover {
+    color: #f4b738;
+  }
+  
+  .custom-select option:hover {
+    background: grey !important; 
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 50px; */
+     margin-bottom: 50px;
+  }
+  
+  .pagination-btn {
+    background-color: #fffef3;
+    color: #ff8a00;
+    border: 1px solid #ff8a00;
+    padding: 8px 16px;
+    margin: 0 4px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .pagination-btn:hover {
+    background-color: #ff8a00;
+    color: #ffffff;
+  }
+  
+  .pagination-btn.active {
+    background-color: #ff8a00;
+    color: #ffffff;
+  }
+  
+  /* Optional: Add styles for disabled button */
+  .pagination-btn:disabled {
+    background-color: #f4b738;
+    color: #ffffff;
+    cursor: not-allowed;
+  }
+  
+  /* Optional: Add hover effect for disabled button */
+  .pagination-btn:disabled:hover {
+    background-color: #f4b738;
+    color: #ffffff;
+  }
+
+  @media (max-width: 767px) {
+    .pagination.fixed-bottom {
+      margin-top: 50px;
+      position: relative; /* or whatever appropriate */
+    }
+  }
+
+  /* transition css */
+
+.trs {
+    opacity: 1;
+    transition: all 1s ease;
+}
+
+.trs.trs-exited { 
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+
+  
